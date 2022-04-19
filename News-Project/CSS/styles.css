@@ -1,0 +1,194 @@
+:root{
+    --theme: rgb(30, 144, 255);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: rgb(241,241,241);
+}
+.row-flex{
+    display: flex;
+    flex-direction: row;
+}
+.blueBG{
+    background-color:var(--theme);
+}
+.logo{
+    height: 95px;
+    padding: 10px;
+}
+.nav{
+    background-color: black;
+}
+.nav-list{
+    list-style: none;
+    justify-content: center;
+}
+.nav-list>li{
+    padding: 10px 2%;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+.discardAnchor{
+    text-decoration: none;
+    color: inherit;
+}
+.nav-list>li:hover{
+    background-color: var(--theme);
+}
+.content,.sidebar{
+    padding: 20px 10px;
+    background-color: white;
+}
+.content{
+    width: 70%;
+    margin-right: 10px;
+}
+.sidebar{
+    width: 30%;
+    margin-left: 10px;
+}
+.contentHeading{
+    font-size: 150%;
+    padding: 0px 0px 10px;
+}
+hr.rounded{
+    border-top: 2px solid black;
+    border-radius: 99px;
+    margin: 10px 0px;
+}
+hr.spacedRuler{
+    margin: 10px 0px;
+}
+.postImage{
+    width: 100%;
+    height: auto;
+}
+.postImageWrapper{
+    width: 40%;
+}
+.postContent{
+    width: 60%;
+    padding: 0px 20px;
+}
+
+.max-1-lines{
+    display: block;/* or inline-block */
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 1.2em; /*    No.of lines required x line height. (1.2em x 2 here)   */
+    line-height: 1.2em;
+}
+.max-2-lines{
+    display: block;/* or inline-block */
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 2.4em; /*    No.of lines required x line height.    */
+    line-height: 1.2em;
+}
+.max-3-lines{
+    display: block;/* or inline-block */
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 3.6em; /*    No.of lines required x line height.    */
+    line-height: 1.2em;
+}
+.max-4-lines{
+    display: block;/* or inline-block */
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 4.8em; /*    No.of lines required x line height.    */
+    line-height: 1.2em;
+}
+.postDetails{
+    font-size: 70%;
+    padding: 10px 0px;
+}
+.btn{
+    padding: 6px 10px;
+    background-color: var(--theme);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.7em;
+}
+.btnWrapper{
+    margin: 5px 0px;
+    text-align: end;
+}
+
+.paginationWrapper{
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.paginationSquare{
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    background-color: var(--theme);
+    color: white;
+    transition: background-color 0.5s ease;    
+}
+.paginationSquare:hover{
+    background-color: black;
+}
+.active{
+    background-color:rgb(5, 62, 119);
+}
+
+.sidebar{
+    font-size: 70%;
+}
+h4{
+    display: block;
+    padding: 20px 0px;
+    font-size: 130%;
+}
+form.search{
+    margin: 0px 0px 20px 0px;
+    font-size: 0px;
+}
+.search>input{
+    font-size: 0.8rem;
+    padding: 5px;
+    height: 30px;
+    border: 2px solid grey;
+    border-radius: 0px;
+    vertical-align: middle;
+}
+.search>input[name="search"]{
+    width: 80%;
+    min-width: 50%;
+}
+.search>input[type="submit"]{
+    border-left: none;
+    color: white;
+    background-color: var(--theme);
+}
+span#welcome{
+	text-transform: uppercase;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+}
+
+
+.footer{
+    background-color: var(--theme);
+    text-align: center;
+    width: 100%;
+}
+.footer>p{
+    padding: 20px 0px;
+}
