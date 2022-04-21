@@ -535,7 +535,7 @@ if(isset($_POST['fp']) && !isset($_SESSION['sessUser'])){
         $mail->SMTPSecure = '';
         $mail->Port = 587;
         $mail->Username = 'pexelsteam@gmail.com'; // YOUR gmail email
-        $mail->Password = 'SaadPexelsMujahid'; // YOUR gmail password
+        $mail->Password = ''; // YOUR gmail password
         $mail->setFrom('pexelsteam@gmail.com', 'Pexels PR Team');
         $mail->addAddress($email, 'Recover your Password');
         $mail->IsHTML(true);
