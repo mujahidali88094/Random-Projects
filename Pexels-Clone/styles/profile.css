@@ -1,0 +1,80 @@
+
+#info{
+    max-width: 700px;
+    margin: 10vw auto;
+}
+.anchorUnstyled,.anchorUnstyled:hover,.anchorUnstyled:active,.anchorUnstyled:visited{
+    text-decoration: none;
+    color: inherit;
+}
+.btnPrimary{
+    background-color:var(--pColor);
+    color: white;
+    border-color: var(--pColor);
+}
+button:hover,button:focus,button:focus-visible{
+    opacity: 0.6 !important;  
+    box-shadow: none !important;
+}
+.btnSecondary{
+    background-color: white;
+    color: black;
+    border-color: var(--pColor);
+}
+.photoItem>img{
+    width: 100%;
+}
+.photoItem svg{
+    fill: white;
+}
+.profilePhotoItem .authorDetails{
+    display: none !important;
+}
+@media only screen and (max-width: 768px) {
+    #infoTextArea>h1,#infoTextArea>span{
+        display: block !important;
+    }
+    #dp{
+        width: 120px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    #infoTextArea{
+        text-align: center !important;
+    }
+    .card-columns{
+        column-count: 2!important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+  
+    .card-columns-count-4{
+        column-count: 4!important;
+    }
+}
+.imgWrapper>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.p-22:hover{
+    background-color: #d3d3d33d;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+.bigImage{
+    border-radius: 14px;
+    overflow: hidden;
+}
+.imagesGroup{
+    border-radius: 10px;
+    overflow: hidden;
+    aspect-ratio: 5/1;
+}
+.bigImage .imgWrapper{
+    aspect-ratio: 3/2;
+}
+.imagesGroup>.imgWrapper{
+    width: 100%;
+}

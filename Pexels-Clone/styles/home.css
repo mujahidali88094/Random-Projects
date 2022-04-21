@@ -1,0 +1,562 @@
+:root{
+  --pColor: rgb(5, 160, 129);
+  --fColor: rgb(80, 116, 190);
+	--bgColor: rgb(121, 204, 224);
+	--tooltipArrowSize: 0.5rem;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+	font-size: 16px;
+}
+
+/***************** general styling  **********************/
+
+.separatorSingle{
+	height: 1px;
+	background-color: lightgray;
+}
+.separator{
+  height: 3px;
+  border-top:1px solid lightgray;
+	border-bottom:1px solid lightgray;
+	margin: 0.3rem 0rem;
+}
+.tootltipCustom{
+	background-color: whitesmoke !important;
+	color: black !important;
+}
+.anchorUnstyled,.anchorUnstyled:active,.anchorUnstyled:visited{
+  text-decoration: none;
+  color: inherit !important;
+}
+.anchorUnstyled:hover{
+	text-decoration: none;
+  filter: opacity(50%);
+}
+.btn.btnPrimary{
+  background-color:var(--pColor);
+  color: white;
+  border-color: var(--pColor);
+	/* padding: 0.4rem; */
+}
+button:hover,button:focus,button:focus-visible{
+  opacity: 0.6 !important;  
+  box-shadow: none !important;
+	color: white !important;
+}
+.btnSecondary{
+  background-color: white;
+  color: black;
+  border-color: var(--pColor);
+}
+.btnNoStyle,.btnNoStyle:focus{
+  background: none;
+  border: none;
+  color: inherit;
+	outline: none;
+}
+.imgWrapper>img{
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.bg-dark{
+	background-image: none !important;
+	background-color: #343a40!important;
+}
+
+/***************** nav  **********************/
+
+nav.nav{
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	/* background: transparent; */
+	color: white;
+	background: var(--bgColor);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top;
+}
+nav>*:not(:last-child){
+	padding: 0 1.5%;
+}
+nav>*:last-child{
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+}
+.logoName:hover{
+	opacity: 0.8;
+}
+.logoName>svg{
+	border-radius: 15px;
+}
+.searchBox,.searchBox>*{
+	background: white !important;
+	max-width: 30rem;
+}
+.searchBox{
+	flex-grow: 1;
+	border-radius: 60px;
+	display: flex;
+}
+.searchBox>button{
+	margin-left: auto;
+}
+.searchBox input{
+	border: none;
+	flex-grow: 1;
+}
+.searchBox input:focus,input:focus-visible{
+	outline: none
+}
+.searchBox,.searchBox>input{
+	min-width: 1px;
+}
+.searchBox svg{
+	fill: black;
+}
+.profileLogo{
+	border: 2px solid white;
+	border-radius: 50%;
+}
+.profileLogo>img{
+	aspect-ratio: 1/1;
+	border-radius: 50%;
+	/* transform: translateY(-2px); */
+}
+
+/***************** dropdown  **********************/
+
+.dropdown{
+	display: none;
+	position: absolute;
+	bottom: -20px;
+	right: 0;
+	width: clamp(10rem,20rem,25rem);
+	border-radius: 0.5rem;
+	transform: translateY(100%);
+	background: white;
+	color: black;
+	padding-block: 1rem;
+}
+.dropdown::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	transform: translate(-200%,-100%);
+	border: var(--tooltipArrowSize) solid transparent;
+	border-bottom-color: white;
+}
+
+.dropdownListItem{
+	max-width: 100%;
+	overflow: hidden;
+}
+.dropdownListItem>a{
+	display: block;
+	width: 100%;
+	font-weight: 600;
+	color:rgb(170, 169, 169) !important;
+	padding-inline: 1rem;
+	padding-block: 0.5rem;
+}
+.dropdownListItem>a:hover{
+	background: hsl(0, 2%, 89%);
+	text-decoration: none;
+}
+
+/***************** social media links  **********************/
+
+.socialLinks{
+	display: flex;
+	flex-direction: row;
+	/* flex-wrap: wrap; */
+	justify-content: space-around;
+}
+.socialLinks>a{
+	width: 100%;
+	text-align: center;
+}
+.socialLinks>a:hover{
+	width: 100%;
+	color: white !important;
+	background-color:black;
+}
+
+/*****************  notifications  **********************/
+
+#notify{
+	padding: 1rem;
+}
+#notify::before{
+	transform: translate(-125%,-100%);
+}
+#notifyContent>*:nth-child(1){
+	padding: 0.5rem ;
+	flex: 20%;
+}
+#notifyContent>*:nth-child(2){
+	padding: 0.5rem;
+	flex: 80%;
+}
+#notifyContent>.imgWrapper>img{
+	aspect-ratio: 1/1;
+	border-radius: 50%;
+	height: unset;
+}
+#notifyContent ul{
+	list-style-position: inside;
+}
+
+/***************** hamburger  **********************/
+
+
+.bars{
+	display: none;
+}
+.bars>button>i{
+	font-size: 125%;
+	vertical-align: middle;
+}
+#barsMenu{
+	position: absolute;
+	top: 63px;
+	left: 0;
+	transform: translateY(0%);
+	color: white;
+	background-color: black;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.barsMenuItem>a:hover{
+	color: black !important;
+	background-color: white !important;
+	filter: none;
+}
+#barsMenu .socialLinks a:hover{
+	color: black !important;
+	background-color: white;
+}
+
+/***************** intro  **********************/
+
+section#intro{
+	background: var(--bgColor);
+	background-attachment: fixed;
+	background-size: cover;
+	height: 500px;
+}
+#intro{
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#introContent{
+	padding: 1rem;
+	max-width: 650px;
+}
+#introContent>*{
+	margin-bottom: 1rem;
+}
+#introContent>.searchBox{
+	margin-left: none;
+	margin-right: none;
+	max-width: 100%;
+}
+.searchBox{
+	z-index: 2;
+}
+/* .tagsPopup{
+	box-shadow: 0px 0px 1rem 0 black;
+} */
+.tagsPopup{
+	display: block;
+	position: absolute;
+	bottom: 0;
+	transform: translate(-1rem,87%);
+	width: 100%;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	color: black;
+	max-width: unset;
+	border-radius: 1rem;
+	max-height: 15rem;
+	overflow: auto;
+	z-index: -1;
+}
+.tagsPopupItem{
+	display: inline-block;
+	padding: 0.5rem 1rem;
+	margin: 2%;
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius: 1rem;
+}
+.tagsPopup::-webkit-scrollbar{
+	display: none;
+}
+
+/***************** main section  **********************/
+
+#main>*{
+	padding: 1rem 2rem;
+}
+
+/***************** tabs  **********************/
+
+#tabs{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+#tabs a{
+	display: block;
+	font-weight: 600;
+	padding: 1rem;
+}
+#tabs a:hover{
+	color: blue !important;
+}
+a.activeTabLink.anchorUnstyled{
+	color: unset;
+	color: blue !important;
+	border-bottom: 3px solid blue;
+}
+
+/***************** homeContentSection  **********************/
+
+.card-columns{
+	columns: 4;
+}
+.photoItem img{
+  width: 100%;
+}
+.photoItem>a{
+	width: 100%;
+}
+.photoItem>a:hover{
+	filter: none;
+}
+.photoItem svg{
+  fill: white;
+}
+.authorDetails:hover{
+	cursor: pointer;
+}
+.profilePhotoItem .authorDetails{
+  display: none !important;
+}
+.discoverPhotoItem .authorDetails{
+	display: flex !important;
+}
+.discoverPhotoItem .featuredSign{
+	display: none !important;
+}
+
+/***************** discoverContentSection  **********************/
+
+.tagsList{
+	display: flex;
+	flex-wrap: nowrap;
+	gap: 1rem;
+	padding-bottom: 1rem;
+	overflow-x: auto;
+}
+.tag>a{
+	display: block;
+	width: max-content;
+	padding: 0.5rem 1rem;
+	border: 2px solid lightgray;
+	border-radius: 10px;
+	font-weight: bolder;
+	font-size: medium;
+	color: hsl(208deg 3% 59%) !important;
+}
+.gridCollection{
+	display: grid;
+	grid-template-columns: minmax(300px,1fr) minmax(300px,1fr) minmax(300px,1fr);
+	overflow-x: auto;
+}
+.collectionCard{
+	border-radius: 14px;
+}
+.collectionCard:hover{
+  background-color: lightgrey;
+	cursor: pointer;
+}
+.collectionCard .imgWrapper>img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.bigImage{
+  border-radius: 14px;
+  overflow: hidden;
+}
+.bigImage .imgWrapper{
+	aspect-ratio: 3/2;
+}
+.collectionImagesWrapper .imagesGroup{
+	aspect-ratio: 5/1;
+	border-radius: 10px;
+  overflow: hidden;
+}
+.imagesGroup>.imgWrapper{
+	width: 100%;
+}
+
+.discoverPhotos{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+	padding-bottom: 1rem;
+}
+.discoverPhotos .photoItem{
+	min-width: 300px;
+	aspect-ratio: 1/1.25;
+	flex-basis: 33%;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+.discoverPhotos .photoItem img{
+	cursor: pointer;
+	height: 100%;
+	object-fit: cover;
+  object-position: center;
+	border-radius: 1rem;
+}
+#discoverContent h1{
+	padding: 1rem 0.5rem;
+}
+
+/***************** media queries  **********************/
+
+@media only screen and (max-width: 1000px) {
+	#explore,#license{
+		display: none;
+	}
+	.card-columns{
+		columns: 3;
+	}
+}
+@media only screen and (max-width: 850px) {
+	.bars{
+		display: block;
+	}
+	#uploadButton,#navProfile{
+		display: none;
+	}
+	.card-columns{
+		columns: 2;
+	}
+}
+@media only screen and (max-width: 550px) {
+	.card-columns{
+		columns: 1 ;
+	}
+}
+
+/***************** scrollbar styling  **********************/
+::-webkit-scrollbar-track
+{
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 6px;
+	height: 3px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #908e8e;
+}
+
+/*************** Loading Animation ****************/
+
+.lds-ellipsis {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ellipsis div {
+  position: absolute;
+  top: 33px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #000;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(1) {
+  left: 8px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(2) {
+  left: 8px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+  left: 32px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+  left: 56px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(24px, 0);
+  }
+}
+
+/************************** Search Page Styles **************************/
+
+#header{
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	min-height: 200px;
+	background-color: var(--bgColor);
+}
+#searchGridCollection{
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+#searchGridCollection>*{
+	max-width: 500px;
+}
