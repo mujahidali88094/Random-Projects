@@ -1,0 +1,27 @@
+/****        FROM html TO java                     ****/
+
+DateFormat formatter = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm");
+java.util.Date date = formatter.parse(t);
+
+/**          FROM java TO MySQL                   ****/
+
+format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss") ;
+
+/***        FROM MySql TO Java                   ****/
+
+DateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm");
+java.util.Date start= formatter.parse(startString);
+
+/***         Before Adding Appointment         ****/
+
+
+if(p.getStart().after(p.getEnd())){
+  //contradiction
+  return false;
+}
+
+if(hasClash( p , getPatientAppointments(p.getPatientUname()) ) || hasClash( p , getDoctorAppointments(p.getDoctorUname()) )){
+  return false;
+}
+
+
