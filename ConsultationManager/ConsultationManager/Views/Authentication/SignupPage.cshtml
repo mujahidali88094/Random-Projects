@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<title>Consultation Management</title>
+	<link rel="icon" type="image/x-icon" href="/image/favicon.ico">
+	<script src="/lib/jquery/dist/jquery.min.js"></script>
+	<script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<script>
+	$(document).ready(function(){
+		$("#signup_form").submit(function(e){
+			e.preventDefault();
+			let data = new FormData(this);
+			$.ajax({
+				type: "POST",
+				url: "/Authentication/SignupAjax",
+				data: data,
+				processData: false,// tell jQuery not to process the data
+        contentType: false,// tell jQuery not to set contentType
+				success: function(result){ alert("Signup Successful"); location.href="/Authentication/LoginPage"; },
+				error: function(error){ alert(error.responseText); }
+			})
+		})
+	});
+</script>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 form-container">
+				<div class="col-lg-8 col-md-12 col-sm-9 col-xs-12 form-box text-center">
+					<div class="logo mt-5 mb-3">
+						<img src="/image/favicon.ico" width="50" height="30">
+					</div>
+					<div class="heading mb-3">
+						<h4 style="color:black;">Create an account</h4>
+					</div>
+					<form id="signup_form" method="post" asp-controller="Authentication" asp-action="Signup" enctype="multipart/form-data">
+						<div class="form-input">
+							<span><i class="fa fa-user"></i></span>
+							<input name="name" type="text" placeholder="Full Name" required>
+						</div>
+						<div class="form-input">
+							<span><i class="fa fa-envelope"></i></span>
+							<input name="email" type="email" placeholder="Email Address" required>
+						</div>
+						<div class="form-input">
+							<span><i class="fa fa-lock"></i></span>
+							<input name="password" type="password" placeholder="Password" required>
+						</div>
+						<div class="hidden" id="pDetails">
+							<span><i class="fa fa-envelope"></i></span>
+							<input name="specialization" type="text" placeholder="Specialization" value="">
+						</div>
+						<div class="row mb-3">
+							<div class="col-12 d-flex">
+								<select name="usertype" id="usertype" class="usertype">
+									<option value="patient" selected>Patient</option>
+									<option value="doctor">Doctor</option>
+								</select>
+							</div>
+						</div>
+						<div class="row mb-3">
+							<input id="pictureInput" name="picture" type="file" required accept="image/jpeg, image/gif, image/png, image/jpg">
+						</div>
+
+
+						<div class="text-left mb-3">
+							<button type="submit" class="btn">Register</button>
+						</div>
+
+						<div class="text-white">
+							Already have an account?
+							<a href="/Authentication/LoginPage" class="login-link" style="color:black;"><b>Login here</b></a>
+						</div>
+					</form>
+				</div>
+			</div>
+
+			<div class="col-lg-6 col-md-6 d-none d-md-block image-container"></div>
+		</div>
+	</div>
+	
+	<script>
+		$('.usertype').change(function () {
+			var responseID = $(this).val();
+			if (responseID == "doctor") {
+				$('#pDetails').removeClass("hidden");
+				$('#pDetails').addClass("show");
+			} else {
+				$('#pDetails').removeClass("show");
+				$('#pDetails').addClass("hidden");
+			}
+			
+		});
+	</script>>
+</body>
+</html>

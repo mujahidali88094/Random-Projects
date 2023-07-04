@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Doctors Page";
+}
+@{
+    List<Patient> patients = ViewBag.patients;
+    List<ActionLink> actionLinks = ViewBag.navLinks;
+}
+@section links{
+    @foreach (ActionLink actionLink in actionLinks)
+    {
+        @Html.ActionLink(actionLink.Text, actionLink.Action, actionLink.Controller, null, new {@style="color: white"})
+    }
+}
+@section user{
+    @Html.Partial("_User")
+}
+<div class="text-center">
+    <h1 class="display-4">Patients</h1>
+    <div class="box-container">
+    @{
+        foreach(Patient patient in patients)
+        {
+            @Html.Partial("_Patient", patient);
+        }
+    }
+    </div>
+</div>

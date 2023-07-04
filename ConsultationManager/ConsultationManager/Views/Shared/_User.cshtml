@@ -1,0 +1,15 @@
+﻿@{
+    bool isLoggedIn = CurrentSession.GetIsLoggedIn(Context);
+    string email = CurrentSession.GetEmail(Context);
+}
+<div class="d-flex justify-content-between p-5">	
+    @{
+        if(isLoggedIn){
+            <span>@email</span>
+            @Html.ActionLink("Logout", "Logout", "Authentication", null, new {@style="color: white"})
+        }else{
+            <span>Not Logged In</span>
+            @Html.ActionLink("Login", "LoginPage", "Authentication", null, new {@style="color: white"})
+        }
+    }
+</div>
