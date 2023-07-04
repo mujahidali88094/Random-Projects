@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Info Page";
+}
+@{
+    string heading = ViewBag.heading;
+    string message = ViewBag.message;
+}
+@section links{
+    @Html.ActionLink("Home", "Index", "Home", null, new {@style="color: white"})
+}
+
+<div class="text-center">
+    <h1 class="display-4">@heading</h1>
+    <h3>@message</h3>
+</div>

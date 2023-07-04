@@ -1,0 +1,67 @@
+﻿@{
+    ViewData["Title"] = "Doctors Page";
+}
+@{
+    List<Doctor> doctors = ViewBag.doctors;
+    List<ActionLink> actionLinks = ViewBag.navLinks;
+}
+@section links{
+    @foreach (ActionLink actionLink in actionLinks)
+    {
+        @Html.ActionLink(actionLink.Text, actionLink.Action, actionLink.Controller, null, new {@style="color: white"})
+    }
+}
+@section user{
+    @Html.Partial("_User")
+}
+<script>
+    function searchDoctors(){
+        let data = { specialization: $("#specializationField").val() };
+        $.ajax({
+            type: "POST",
+            url: "/Doctors/GetDoctors",
+            data: data,
+            success: function(result){console.log("success", result); displayDoctors(result); },
+            error: function(error){console.log("error", error)}
+        });
+    }
+    function displayDoctors(doctors){
+        $(document).ready(function(){
+            temp = ""
+            doctors.forEach(function(doctor){ temp += htmlForADoctor(doctor); });
+            $("#doctorsContainer").html(temp);
+        })
+    }
+    function htmlForADoctor(doctor){
+        return `<div class="box" style="background-color:#555555;">
+            <img src="${doctor.picture}" alt="Profile Picture">
+            <h3 style="color:white;">${doctor.name}</h3>
+            <span style="color:white;">${doctor.specialization}</span><br>
+            <span style="color:white;">${doctor.email}</span>
+        </div>`
+    }
+</script>
+<div class="text-center">
+    <h1 class="display-4">Doctors</h1>
+
+    <input id="specializationField" name="specialization" type="text" placeholder="Doctor's Specialization" class="btn" style="color:#555555;background-color:white;" />
+    <button onclick="searchDoctors()" class="btn" style="color:#555555;background-color:white" >Search</button>
+    <a asp-controller="Doctors" asp-action="Index" class="btn" style="background-color:#555555">Show All</a>
+
+    <br />
+    <div class="box-container" id="doctorsContainer">
+        @{
+            foreach (Doctor doctor in doctors)
+            {
+                @Html.Partial("_Doctor",doctor)
+                ;
+            }
+        }
+
+    </div>
+    <br />
+    <a asp-controller="Doctors" asp-route-specialization="Cardiologist">Cardiologists</a>
+    <br/>
+    <a asp-controller="Doctors" asp-route-specialization="ENT">ENTs</a>
+</div>
+

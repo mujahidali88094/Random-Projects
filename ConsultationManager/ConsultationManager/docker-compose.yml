@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  frontend:
+    build: .
+    ports:
+      - "8000:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+  backend:
+    image: "mcr.microsoft.com/mssql/server"
+    environment:
+      SA_PASSWORD: "Docker123!"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1440:1433"

@@ -1,0 +1,12 @@
+D:\PUCIT\EAD\EAD_POS_A01\DTO\bin\Debug\net6.0\DTO.deps.json
+D:\PUCIT\EAD\EAD_POS_A01\DTO\bin\Debug\net6.0\DTO.dll
+D:\PUCIT\EAD\EAD_POS_A01\DTO\bin\Debug\net6.0\DTO.pdb
+D:\PUCIT\EAD\EAD_POS_A01\DTO\obj\Debug\net6.0\DTO.csproj.AssemblyReference.cache
+D:\PUCIT\EAD\EAD_POS_A01\DTO\obj\Debug\net6.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\PUCIT\EAD\EAD_POS_A01\DTO\obj\Debug\net6.0\DTO.AssemblyInfoInputs.cache
+D:\PUCIT\EAD\EAD_POS_A01\DTO\obj\Debug\net6.0\DTO.AssemblyInfo.cs
+D:\PUCIT\EAD\EAD_POS_A01\DTO\obj\Debug\net6.0\DTO.csproj.CoreCompileInputs.cache
+D:\PUCIT\EAD\EAD_POS_A01\DTO\obj\Debug\net6.0\DTO.dll
+D:\PUCIT\EAD\EAD_POS_A01\DTO\obj\Debug\net6.0\refint\DTO.dll
+D:\PUCIT\EAD\EAD_POS_A01\DTO\obj\Debug\net6.0\DTO.pdb
+D:\PUCIT\EAD\EAD_POS_A01\DTO\obj\Debug\net6.0\ref\DTO.dll

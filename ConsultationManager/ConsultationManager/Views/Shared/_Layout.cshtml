@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- css file link  -->
+    <link rel="stylesheet" href="~/lib//bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/home.css">
+    <title>@ViewData["Title"] - Consultation Management</title>
+    <link rel="icon" type="image/x-icon" href="image/favicon.ico">
+    <script defer src="/lib/jquery/dist/jquery.min.js"></script>
+    <script defer src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body style="background-color:#555555;">
+    <div class="container-fluid">
+        <header class="header navbar d-flex justify-content-between" style="background-color:#555555;">
+            <a href="/Home" class="logo"> <i class="fas fa-heartbeat" style="color:white;"></i> Consultation Management System </a>
+            <nav class="d-flex justify-content-between children-spaced">
+                @RenderSection("links", false)
+            </nav>
+            @*<div id="menu-btn" class="fas fa-bars"></div>*@
+        </header>
+        <div>
+            @RenderSection("user", false)
+        </div>
+        <div>
+            @RenderBody()
+        </div>
+        <footer class="border-top footer text-muted" style="color: white">
+            <div class="container text-center">
+                &copy; 2023 - ConsultationManager
+            </div>
+        </footer>
+    
+    </div>
+    <script src="~/js/home.js"></script>
+
+</body>
+</html>

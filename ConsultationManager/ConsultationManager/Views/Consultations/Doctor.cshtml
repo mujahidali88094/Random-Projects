@@ -1,0 +1,76 @@
+﻿@{
+    ViewData["Title"] = "Consultations";
+}
+@model List<Consultation>
+@{
+    List<ActionLink> actionLinks = ViewBag.navLinks;
+}
+@section links{
+    @foreach (ActionLink actionLink in actionLinks)
+    {
+        @Html.ActionLink(actionLink.Text, actionLink.Action, actionLink.Controller, null, new {@style="color: white"})
+    }
+}
+@section user{
+    @Html.Partial("_User")
+}
+<div class="text-center">
+    <h1 class="display-4">Consultations</h1>
+</div>
+<div class="container">
+    @{
+        if(CurrentSession.GetIsLoggedIn(Context) && CurrentSession.GetUsertype(Context)=="doctor"){
+            <div class="row">
+                <div class="col-md-12">
+                    <div style="margin-right: 0">
+                        @Html.ActionLink("Cancel All", "CancelAll", new { email = CurrentSession.GetEmail(Context) })
+                    </div>
+                </div>
+            </div>
+        }
+    }
+    
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Patient</th>
+                        <th>Doctor</th>
+                        <th>Start</th>
+                        <th>End</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var consultation in Model)
+                    {
+                        <tr style="color: white">
+                            <td>
+                                @consultation.PatientEmail
+                            </td>
+                            <td>
+                                @consultation.DoctorEmail
+                            </td>
+                            <td>
+                                @consultation.Start
+                            </td>
+                            <td>
+                                @consultation.End
+                            </td>
+                            <td>
+                                @{
+                                    if(CurrentSession.GetIsLoggedIn(Context) && CurrentSession.GetUsertype(Context)=="doctor"){
+                                        <div style="margin-right: 0">
+                                            @Html.ActionLink("Cancel", "Cancel", new { id = consultation.Id })
+                                        </div>
+                                    }
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

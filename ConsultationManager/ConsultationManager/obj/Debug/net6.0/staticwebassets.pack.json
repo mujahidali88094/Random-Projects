@@ -1,0 +1,409 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ConsultationManager.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ConsultationManager.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\Uploads\\35a9c6ce.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\35a9c6ce.jpg"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\Uploads\\3bd6fe3e.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\3bd6fe3e.jpg"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\Uploads\\42b3b1dc.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\42b3b1dc.jpg"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\Uploads\\4e0d3e45.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\4e0d3e45.jpg"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\Uploads\\58f3500a.png",
+      "PackagePath": "staticwebassets\\Uploads\\58f3500a.png"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\Uploads\\67488ff9.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\67488ff9.jpg"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\Uploads\\8d21fdb1.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\8d21fdb1.jpg"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\Uploads\\910e46e9.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\910e46e9.jpg"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\Uploads\\9f1deaa7.png",
+      "PackagePath": "staticwebassets\\Uploads\\9f1deaa7.png"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\Uploads\\b244f825.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\b244f825.jpeg"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\Uploads\\d9a22619.png",
+      "PackagePath": "staticwebassets\\Uploads\\d9a22619.png"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\Uploads\\de8850f2.JPG",
+      "PackagePath": "staticwebassets\\Uploads\\de8850f2.JPG"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\Uploads\\df17464a.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\df17464a.jpeg"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\Uploads\\ec5440dd.JPG",
+      "PackagePath": "staticwebassets\\Uploads\\ec5440dd.JPG"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\Uploads\\ec9cf03c.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\ec9cf03c.jpg"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\Uploads\\tmp1942.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\tmp1942.jpg"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\Uploads\\tmp3BBE.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\tmp3BBE.jpg"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\image\\about-img.svg",
+      "PackagePath": "staticwebassets\\image\\about-img.svg"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\image\\ali.jpg",
+      "PackagePath": "staticwebassets\\image\\ali.jpg"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\image\\bg1.jpg",
+      "PackagePath": "staticwebassets\\image\\bg1.jpg"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\image\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\image\\blog-1.jpg"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\image\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\image\\blog-2.jpg"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\image\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\image\\blog-3.jpg"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\image\\book-img.svg",
+      "PackagePath": "staticwebassets\\image\\book-img.svg"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\image\\doc-1.jpg",
+      "PackagePath": "staticwebassets\\image\\doc-1.jpg"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\image\\doc-3.jpg",
+      "PackagePath": "staticwebassets\\image\\doc-3.jpg"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\image\\doc-4.jpg",
+      "PackagePath": "staticwebassets\\image\\doc-4.jpg"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\image\\doc-5.jpg",
+      "PackagePath": "staticwebassets\\image\\doc-5.jpg"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\image\\doc-6.jpg",
+      "PackagePath": "staticwebassets\\image\\doc-6.jpg"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\image\\favicon.ico",
+      "PackagePath": "staticwebassets\\image\\favicon.ico"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\image\\home-image.jpg",
+      "PackagePath": "staticwebassets\\image\\home-image.jpg"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\image\\pic-1.png",
+      "PackagePath": "staticwebassets\\image\\pic-1.png"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\image\\pic-2.png",
+      "PackagePath": "staticwebassets\\image\\pic-2.png"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\image\\pic-3.png",
+      "PackagePath": "staticwebassets\\image\\pic-3.png"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\image\\sobia.jpg",
+      "PackagePath": "staticwebassets\\image\\sobia.jpg"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\image\\taimoor.jpg",
+      "PackagePath": "staticwebassets\\image\\taimoor.jpg"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\PUCIT\\EAD\\ConsultationManager\\ConsultationManager\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ConsultationManager.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ConsultationManager.props",
+      "PackagePath": "build\\ConsultationManager.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ConsultationManager.props",
+      "PackagePath": "buildMultiTargeting\\ConsultationManager.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ConsultationManager.props",
+      "PackagePath": "buildTransitive\\ConsultationManager.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

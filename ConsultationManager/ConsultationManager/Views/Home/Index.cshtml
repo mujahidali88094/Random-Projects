@@ -1,0 +1,108 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@{
+    string email = ViewBag.email;
+    List<ActionLink> actionLinks = ViewBag.navLinks;
+}
+@section links{
+    @foreach(ActionLink actionLink in actionLinks)
+    {
+        @Html.ActionLink(actionLink.Text, actionLink.Action, actionLink.Controller, null, new {@style="color: white"})
+    }
+}
+@section user{
+    @Html.Partial("_User")
+}
+    <!-- home section starts  -->
+
+    <section class="home" id="home" style="background-color:#555555;">
+
+        <div class="content">
+            <h3  style="color:white;">Stay Safe, Stay Healthy</h3>
+            <p style="color:white;">Consultation Management System is an application of business management to manage doctors, patient and their consultations. This system enables the just enrolled clients to login and the new users are permitted to Sign-up on the application. This is proposed to be an online Web based application and the main objective of this Web based Consultation Management System is to enable the patients to quickly book a consultation based on the availability of a doctor.</p>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- icons section starts  -->
+
+    <section class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-user-md" style="color:white;"></i>
+            <h3 style="color:white;">140+</h3>
+            <p style="color:white;">doctors at work</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-users" style="color:white;"></i>
+            <h3 style="color:white;">1040+</h3>
+            <p style="color:white;">satisfied patients</p>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-hospital" style="color:white;"></i>
+            <h3 style="color:white;">80+</h3>
+            <p style="color:white;">available hospitals</p>
+        </div>
+
+    </section>
+
+    <!-- icons section ends -->
+
+    <!-- services section starts  -->
+
+    <section class="services" id="services">
+
+        <h1 class="heading"> our <span style="color:#555555;">services</span> </h1>
+
+        <div class="box-container">
+
+
+            <div class="box" style="background-color:#555555">
+                <i class="fas fa-user-md" style="color:white;"></i>
+                <h3 style="color:white;">expert doctors</h3>
+            </div>
+
+            <div class="box" style="background-color:#555555">
+                <i style="color:white;" class="fas fa-pills"></i>
+                <h3 style="color:white;">medicines</h3>
+            </div>
+
+
+            <div class="box" style="background-color:#555555">
+                <i style="color:white;" class="fas fa-heartbeat"></i>
+                <h3 style="color:white;">total care</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading" style="color:white;"> <span style="color:white;">about</span> us </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="image/about-img.svg" alt="">
+            </div>
+
+            <div class="content">
+                <h3 style="color:white;">we take care of your healthy life</h3>
+                <p style="color:white;">Consultation Management System is an application of business management to manage doctors, patient and their consultations. This system enables the just enrolled clients to login and the new users are permitted to Sign-up on the application. This is proposed to be an online Web based application and the main objective of this Web based Consultation Management System is to enable the patients to quickly book a consultation based on the availability of a doctor.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
