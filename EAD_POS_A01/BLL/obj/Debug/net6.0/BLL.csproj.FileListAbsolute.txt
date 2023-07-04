@@ -1,0 +1,17 @@
+D:\PUCIT\EAD\EAD_POS_A01\BLL\bin\Debug\net6.0\BLL.deps.json
+D:\PUCIT\EAD\EAD_POS_A01\BLL\bin\Debug\net6.0\BLL.dll
+D:\PUCIT\EAD\EAD_POS_A01\BLL\bin\Debug\net6.0\BLL.pdb
+D:\PUCIT\EAD\EAD_POS_A01\BLL\bin\Debug\net6.0\DAL.dll
+D:\PUCIT\EAD\EAD_POS_A01\BLL\bin\Debug\net6.0\DTO.dll
+D:\PUCIT\EAD\EAD_POS_A01\BLL\bin\Debug\net6.0\DAL.pdb
+D:\PUCIT\EAD\EAD_POS_A01\BLL\bin\Debug\net6.0\DTO.pdb
+D:\PUCIT\EAD\EAD_POS_A01\BLL\obj\Debug\net6.0\BLL.csproj.AssemblyReference.cache
+D:\PUCIT\EAD\EAD_POS_A01\BLL\obj\Debug\net6.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\PUCIT\EAD\EAD_POS_A01\BLL\obj\Debug\net6.0\BLL.AssemblyInfoInputs.cache
+D:\PUCIT\EAD\EAD_POS_A01\BLL\obj\Debug\net6.0\BLL.AssemblyInfo.cs
+D:\PUCIT\EAD\EAD_POS_A01\BLL\obj\Debug\net6.0\BLL.csproj.CoreCompileInputs.cache
+D:\PUCIT\EAD\EAD_POS_A01\BLL\obj\Debug\net6.0\BLL.csproj.CopyComplete
+D:\PUCIT\EAD\EAD_POS_A01\BLL\obj\Debug\net6.0\BLL.dll
+D:\PUCIT\EAD\EAD_POS_A01\BLL\obj\Debug\net6.0\refint\BLL.dll
+D:\PUCIT\EAD\EAD_POS_A01\BLL\obj\Debug\net6.0\BLL.pdb
+D:\PUCIT\EAD\EAD_POS_A01\BLL\obj\Debug\net6.0\ref\BLL.dll
